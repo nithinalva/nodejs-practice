@@ -32,6 +32,6 @@ app.get("/api/v1/:name", (req, res) => {
   res.status(200).json({ params: req.params.name });
 });
 
-// app.listen(PORT, () => {
-//   console.log("Listening in port ", PORT);
-// });
+app.listen(PORT, () => {
+  console.log("Listening in port ", PORT);
+});
