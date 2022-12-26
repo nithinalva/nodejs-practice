@@ -22,7 +22,6 @@ app.get("/api/v1/instagram", (req, res) => {
   res.status(200).json(user);
 });
 
-//sending a JSON req
 app.get("/user", (req, res) => {
   res.status(500).json({ name: "Hello nithin how are you" });
 });
